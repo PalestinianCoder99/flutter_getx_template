@@ -16,6 +16,14 @@ We all face the same problem when we want to start a new project we have to take
 - Making app more responsive and stop font scaling ⚖️
   This project will take care of all this repeatable things so you can start your project in few steps and you will have all the mentioned points set up and ready to use 😎
 
+## Latest Updates 🚀
+- [x] Update to latest flutter version 
+- [x] Update Theme classes
+- [x] Update safe api call class
+- [x] Refactor Code
+- [x] Update Example 
+
+
 ## What is new 🌟
 
 - [x] Separate Local Notification helper from fcm helper 🛠️
@@ -175,8 +183,6 @@ Before discovering folders lets first perform some actions to make the project r
       ```dart
       GetBuilder<HomeController>(
       builder: (controller){
-        LocalizationService.updateLanguage('en');
-        LocalizationService.getCurrentLocal();
         return MyWidgetsAnimator(
             apiCallStatus: controller.apiCallStatus,
             loadingWidget: () => const Center(child: CircularProgressIndicator(),),
