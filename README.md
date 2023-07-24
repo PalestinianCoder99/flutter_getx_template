@@ -18,6 +18,7 @@ We all face the same problem when we want to start a new project we have to take
 - Snackbar,Toasts & in app notifications 🪖
 - Making app more responsive and stop font scaling 🚀
 - Change app Icon, Name and packageid 🖋️
+
 This project will take care of all this repeatable things so you can start your project in few steps and you will have all the mentioned points set up and ready to use 😎
 
 
