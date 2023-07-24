@@ -64,6 +64,7 @@ This project will take care of all this repeatable things so you can start your 
       designSize: const Size(375, 812), // change this to your xd artboard size
     ```
 
+
 - FCM & Awesome Notifications are initialized in main.dart so when ever you connect your app to firebase your app will be ready to receive notifications you don't need to do anything, if you want to send token to api you can find this function in FcmHelper class 😎
     ```dart
     static _sendFcmTokenToServer(){
