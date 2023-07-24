@@ -6,7 +6,7 @@ Flutter Getx template: Starting up new project with all needed configuration has
 <img src="preview_images/65749.png" width="100%">
 
 ## Used By
-- [Accessline Company](https://accessline.ps/)
+- [Accessline Company](https://accessline.ps/){:target="_blank"}
 - GACA (+10k) ( [Google Play](https://play.google.com/store/apps/details?id=accessline.gaca.app) - [Apple Store](https://apps.apple.com/il/app/gasa/id6444829497) )
 - Hr App ( [Google Play](https://play.google.com/store/apps/details?id=com.talapps.hrApp) - [Apple Store]() )
 - Wafaa ( [Google Play](https://play.google.com/store/apps/details?id=loai.wafaa))
