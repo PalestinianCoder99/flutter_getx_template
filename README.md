@@ -58,41 +58,35 @@ This project will take care of all this repeatable things so you can start your 
 [//]: # (- [awesome_notifications]&#40;https://pub.dev/packages/awesome_notifications&#41; for local notification)
 
 ## Clone and start project
-Before discovering folders lets first perform some actions to make the project ready to launch
-- first run this command it will generate hive type adapters (for our custom classes that we want to store locally)
-
-    ```
-    flutter packages pub run build_runner build --delete-conflicting-outputs
-    ```
-  if you don't want to use hive comment this line in main.dart
-
-    ```dart
-    await MyHive.init(adapters: [UserModelAdapter()]);
-    ```
 - To make your app responsive and look exactly as your (xd,figma..etc) design you need to set artbord size for flutter_ScreenUtil in main.dart
     ```dart
     ScreenUtilInit(
       designSize: const Size(375, 812), // change this to your xd artboard size
     ```
-- FCM & Awesome Notifications are combined at the same class so when ever you connect your app to firebase your app will be ready to receive notifications you don't need to do anything except sending fcm notification to your api via implementing the method (sendFcmTokenToServer) which is inside FcmHelper class 😎
+
+- FCM & Awesome Notifications are initialized in main.dart so when ever you connect your app to firebase your app will be ready to receive notifications you don't need to do anything, if you want to send token to api you can find this function in FcmHelper class 😎
     ```dart
     static _sendFcmTokenToServer(){
         var token = MySharedPref.getFcmToken();
         // TODO SEND FCM TOKEN TO SERVER
     }
     ```
+
 - Change app package name
     ```
     flutter pub run change_app_package_name:main com.new.package.name
     ```
+
 - Change app name
     ```
     flutter pub run rename_app:main all="My App Name"
     ```
+
 - Change app launch icon (replace assets/images/app_icon.png with your app icon) then run this command
     ```
     flutter pub run flutter_launcher_icons:main
     ```
+
 - FCM: firebase has recently added (add flutter app) to your firebase which will make adding our flutter(android/ios) app to firebase take only 2 steps 🔥 but first you need to download [Firebase CLI](https://firebase.google.com/docs/cli?authuser=0&hl=en#install_the_firebase_cli) and in the terminal execute:
     ```
     dart pub global activate flutterfire_cli
@@ -104,6 +98,7 @@ Before discovering folders lets first perform some actions to make the project r
   and that's it! your project is now connected to firebase and fcm is up and ready to get notifications
   ##### Important Note
   IOS require few more steps from your side to recive fcm notifications follow the [Dcos](https://firebase.flutter.dev/docs/messaging/apple-integration/) steps and after that everything should be working fine from flutter side
+
 ## Quick Start
 - Responsive app: to make your app responsive you need to get advantage of using flutter_ScreenUtil so instead of using normal double values for height,width,radius..etc you need to use it like this
 -
