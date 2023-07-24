@@ -4,7 +4,6 @@
 Flutter Getx template: Starting up new project with all needed configuration has never been easier.
 
 <img src="preview_images/65749.png" width="100%">
-<img src="https://drive.google.com/uc?export=view&id=10rjJzsNODgFA" width="100%">
 
 ## Introduction
 
@@ -44,13 +43,20 @@ This project will take care of all this repeatable things so you can start your 
 - [x] Refactor Code 🛠️
 - [ ] Support Web (in progress) 💡
 
-## Acknowledgment
-Project was created using [get_cli](https://pub.dev/packages/get_cli) which is a great tool helping you to (start project,create screens/controllers, handling DI)..etc and we will list other packages that helped to create this skeleton
-- [GetX](https://pub.dev/packages/get) for state management,navigation,managing dependencies..etc
-- [flutter_screenutil](https://pub.dev/packages/flutter_screenutil) to make app more responsive
-- [hive](https://pub.dev/packages/hive) as local database
-- [shared_preferences](https://pub.dev/packages/shared_preferences) store data persistently as key/value
-- [awesome_notifications](https://pub.dev/packages/awesome_notifications) for local notification
+[//]: # (## Acknowledgment)
+
+[//]: # (Project was created using [get_cli]&#40;https://pub.dev/packages/get_cli&#41; which is a great tool helping you to &#40;start project,create screens/controllers, handling DI&#41;..etc and we will list other packages that helped to create this skeleton)
+
+[//]: # (- [GetX]&#40;https://pub.dev/packages/get&#41; for state management,navigation,managing dependencies..etc)
+
+[//]: # (- [flutter_screenutil]&#40;https://pub.dev/packages/flutter_screenutil&#41; to make app more responsive)
+
+[//]: # (- [hive]&#40;https://pub.dev/packages/hive&#41; as local database)
+
+[//]: # (- [shared_preferences]&#40;https://pub.dev/packages/shared_preferences&#41; store data persistently as key/value)
+
+[//]: # (- [awesome_notifications]&#40;https://pub.dev/packages/awesome_notifications&#41; for local notification)
+
 ## Clone and start project
 Before discovering folders lets first perform some actions to make the project ready to launch
 - first run this command it will generate hive type adapters (for our custom classes that we want to store locally)
