@@ -7,6 +7,19 @@ Flutter Getx template: Starting up new project with all needed configuration has
 
 [![Contributors](https://contrib.rocks/image?repo=l00ai/flutter_getx_template)](https://github.com/EmadBeltaje/flutter_getx_template/graphs/contributors)
 
+## Thanks To Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=EmadBeltaje/flutter_getx_template)](https://github.com/EmadBeltaje/flutter_getx_template/graphs/contributors)
+
+Thanks to all the amazing contributors who have helped improve this project!
+
+| Name           | GitHub Profile                              |
+| -------------- | ------------------------------------------- |
+| l00ai          | [l00ai](https://github.com/l00ai)           |
+| Emad Beltaje   | [EmadBeltaje](https://github.com/EmadBeltaje) |
+| ...            | ...                                         |
+
+
 ## Used By
 - [Accessline Company](https://accessline.ps/)
 - GACA (+10k) ( [Google Play](https://play.google.com/store/apps/details?id=accessline.gaca.app) - [Apple Store](https://apps.apple.com/il/app/gasa/id6444829497) )
