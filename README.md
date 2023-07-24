@@ -5,6 +5,8 @@ Flutter Getx template: Starting up new project with all needed configuration has
 
 <img src="preview_images/65749.png" width="100%">
 
+[![Contributors](https://contrib.rocks/image?repo=l00ai/YourRepoName)](https://github.com/EmadBeltaje/flutter_getx_template/graphs/contributors)
+
 ## Used By
 - [Accessline Company](https://accessline.ps/)
 - GACA (+10k) ( [Google Play](https://play.google.com/store/apps/details?id=accessline.gaca.app) - [Apple Store](https://apps.apple.com/il/app/gasa/id6444829497) )
