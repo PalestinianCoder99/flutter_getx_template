@@ -3,7 +3,7 @@
 
 Flutter Getx template: Starting up new project with all needed configuration has never been easier.
 
-<img src="preview_images/65749.png" width="100%">
+<img src="preview_images/65749.png" height="250">
 
 ## Introduction
 
@@ -13,10 +13,11 @@ We all face the same problem when we want to start a new project we have to take
 - Firebase Messaging 📨
 - Notifications setup 🔔
 - Safe api requests & error handling 🔏
-- Changing between widgets during api call (loading,success,failed..etc) 😴
+- Changing between widgets during api call (loading,success,failed..etc) 🔥
 - Snackbar,Toasts & in app notifications 🪖
-- Making app more responsive and stop font scaling ⚖️
-  This project will take care of all this repeatable things so you can start your project in few steps and you will have all the mentioned points set up and ready to use 😎
+- Making app more responsive and stop font scaling 🚀
+- Change app Icon, Name and packageid 🖋️
+This project will take care of all this repeatable things so you can start your project in few steps and you will have all the mentioned points set up and ready to use 😎
 
 
 ## Latest Updates 🚀
