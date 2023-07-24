@@ -4,6 +4,7 @@
 Flutter Getx template: Starting up new project with all needed configuration has never been easier.
 
 <img src="preview_images/65749.png" width="80%">
+<img src="https://drive.google.com/file/d/10rjJzsNODgFA_YOFiNRJpqSNH-K7PLwn/view?usp=sharing" width="80%">
 
 ## Introduction
 
