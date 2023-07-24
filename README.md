@@ -5,7 +5,7 @@ Flutter Getx template: Starting up new project with all needed configuration has
 
 <img src="preview_images/65749.png" width="100%">
 
-[![Contributors](https://contrib.rocks/image?repo=l00ai/YourRepoName)](https://github.com/EmadBeltaje/flutter_getx_template/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=l00ai/flutter_getx_template)](https://github.com/EmadBeltaje/flutter_getx_template/graphs/contributors)
 
 ## Used By
 - [Accessline Company](https://accessline.ps/)
