@@ -78,6 +78,10 @@ This project will take care of all this repeatable things so you can start your 
     flutter pub run change_app_package_name:main com.new.package.name
     ```
 
+
+
+
+
 - Change app name
     ```
     flutter pub run rename_app:main all="My App Name"
